@@ -1,0 +1,20 @@
+.rodape {
+  background: url('../../../assets/imagens/fundo-rodape.png');
+  display: grid;
+  align-items: center;
+  padding: 2rem 1rem;
+  grid-template-areas: "texto-rodape logo-rodape .";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.texto-rodape {
+  color: var(--cor-branca);
+  justify-self: center;
+  grid-area: texto-rodape;
+}
+
+.logo-rodape {
+  justify-self: center;
+  grid-area: logo-rodape;
+}
